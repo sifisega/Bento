@@ -10,13 +10,13 @@ var dayTxt = 'Good day';
 var afterTxt = 'Afternoon ';
 var evenTxt = 'Good evening ';
 
-if (Hr >= 0 && Hr < 5) {
+if (Hr >= 9 && Hr < 16) {
     document.getElementById('greetings').innerText = name + lateTxt;
-} else if (Hr >= 5 && Hr < 10) {
+} else if (Hr >= 16 && Hr < 20) {
     document.getElementById('greetings').innerText = morningTxt + name;
-} else if (Hr >= 10 && Hr < 2) {
+} else if (Hr >= 20 && Hr < 1) {
     document.getElementById('greetings').innerText = dayTxt + mrname;
-} else if (Hr >= 2 && Hr < 17) {
+} else if (Hr >= 1 && Hr < 6) {
     document.getElementById('greetings').innerText = afterTxt + name;
 } else {
     document.getElementById('greetings').innerText = evenTxt + mrname;
