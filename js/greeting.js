@@ -15,9 +15,9 @@ if (Hr >= 9 && Hr < 16) {
 } else if (Hr >= 16 && Hr < 20) {
     document.getElementById('greetings').innerText = morningTxt + name;
 } else if (Hr >= 20 && Hr < 1) {
-    document.getElementById('greetings').innerText = dayTxt + mrname;
+    document.getElementById('greetings').innerText = afterTxt + mrname;
 } else if (Hr >= 1 && Hr < 6) {
-    document.getElementById('greetings').innerText = afterTxt + name;
+    document.getElementById('greetings').innerText = dayTxt + name;
 } else {
     document.getElementById('greetings').innerText = evenTxt + mrname;
 }
