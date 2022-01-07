@@ -13,9 +13,9 @@ var evenTxt = 'Good evening ';
 if (Hr >= 3 && Hr < 9) {
     document.getElementById('greetings').innerText = morningTxt + mrname;
 } else if (Hr >= 9 && Hr < 12) {
-    document.getElementById('greetings').innerText = afterTxt + name;
+    document.getElementById('greetings').innerText = dayTxt + name;
 } else if (Hr >= 12 && Hr < 17) {
-    document.getElementById('greetings').innerText = dayTxt + mrname;
+    document.getElementById('greetings').innerText = afterTxt + mrname;
 } else if (Hr >= 17 && Hr < 3) {
     document.getElementById('greetings').innerText = evenTxt + name;
 } else {
