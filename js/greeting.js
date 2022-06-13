@@ -6,7 +6,7 @@ var mrname = 'Mr. Hall';
 var name = 'Silas';
 var lateTxt = '! Go to sleep!';
 var morningTxt = 'Good morning ';
-var dayTxt = 'Good day';
+var dayTxt = 'Good day ';
 var afterTxt = 'Afternoon ';
 var evenTxt = 'Good evening ';
 
